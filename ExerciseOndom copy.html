@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DOM Example</title>
+</head>
+<body>
+  <h1 id="heading">First heading</h1>
+  <button id="changebutton">Change Heading</button>
+
+  <script>
+    const heading = document.getElementById('heading');
+    const button = document.getElementById('changebutton');
+
+    function changeHeading() {
+      heading.innerHTML = 'Button cliked';
+    }
+
+    button.addEventListener('click', changeHeading);
+  </script>
+</body>
+</html>
