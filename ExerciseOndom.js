@@ -1,0 +1,1 @@
+console.log("Exrcise on dom")
